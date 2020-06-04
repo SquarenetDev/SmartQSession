@@ -1,6 +1,7 @@
 # SmartSession
 
-다중사용자를 위한 사용자세션
+SmartSession - iOS/Android local session library for multi users.
+SmartSession - iOS/Android 다중사용자를 위한 로컬세션 라이브러리.
 
 Platform : 
 iOS / Android 
