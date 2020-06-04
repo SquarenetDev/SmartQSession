@@ -7,7 +7,7 @@ iOS / Android
 
 How to use :
 
- ``var smartQUser = SmartQSession.SmartQUser();
+ `var smartQUser = SmartQSession.SmartQUser();
 smartQUser.userId = "AAA";
 smartQUser.password = SmartQ.randomNumber(length: 4)
-``SmartQSession.setSmartQUser(smartQUser);
+SmartQSession.setSmartQUser(smartQUser);'
