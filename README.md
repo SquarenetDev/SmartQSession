@@ -5,9 +5,14 @@
 Platform : 
 iOS / Android 
 
-How to use :
-
- `var smartQUser = SmartQSession.SmartQUser();
+How to use (Android) :
+SmartQUser smartQUser = SmartQUser();
 smartQUser.userId = "AAA";
-smartQUser.password = SmartQ.randomNumber(length: 4)
-SmartQSession.setSmartQUser(smartQUser);'
+smartQUser.password = "1111";
+SmartQSession.setSmartQUser(smartQUser);
+
+How to use (iOS) :
+var smartQUser = SmartQSession.SmartQUser()
+smartQUser.userId = "AAA"
+smartQUser.password = "1111"
+SmartQSession.setSmartQUser(smartQUser);
