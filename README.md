@@ -7,13 +7,13 @@ Platform :
 iOS / Android 
 
 How to use (Android) :
-SmartQUser smartQUser = SmartQUser();
-smartQUser.userId = "AAA";
-smartQUser.password = "1111";
-SmartQSession.setSmartQUser(smartQUser);
+  SmartQUser smartQUser = SmartQUser();
+  smartQUser.userId = "AAA";
+  smartQUser.password = "1111";
+  SmartQSession.setSmartQUser(smartQUser);
 
 How to use (iOS) :
-var smartQUser = SmartQSession.SmartQUser()
-smartQUser.userId = "AAA"
-smartQUser.password = "1111"
-SmartQSession.setSmartQUser(smartQUser);
+  var smartQUser = SmartQSession.SmartQUser()
+  smartQUser.userId = "AAA"
+  smartQUser.password = "1111"
+  SmartQSession.setSmartQUser(smartQUser);
